@@ -51,8 +51,8 @@
                     id="email" 
                     name="email" 
                     placeholder="Enter a valid email address" 
-                    maxlength="20" 
-                    minlength="10">
+                    maxlength="50" 
+                    minlength="30">
                 </label>
                 
                 
@@ -73,7 +73,41 @@
                     id="password"
                     placeholder="Choose a password">
                 </label>
-                
+
+                <label for="date_of_birth">
+                    <strong>Date Of Birth</strong>
+                    <input type="date" name="date_of_birth" id="date_of_birth">
+                </label>
+
+                <label for="number">
+                    <strong>Number</strong>
+
+                    <input type="tel" name="number" id="number">
+                </label>
+
+
+                <label for="gender">
+                    <strong>Select Gender</strong>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </label>
+
+                <label for="level">
+                    <strong>Select University Level</strong>
+                    <select name="level" id="level">
+                        <option value="" selected disabled>Choose an option</option>
+                        <option value="100levl">100 Level</option>
+                        <option value="200levl">200 Level</option>
+                        <option value="300levl">300 Level</option>
+                        <option value="400levl">400 Level</option>
+                        <option value="500levl">500 Level</option>
+                    </select>
+                </label>
+
+                <label for="jamb_reg">
+                    <strong>Jamb Registration</strong>
+                    <input type="text" name="jamb_reg" id="jamb_reg" placeholder="Enter your jamb registration number">
+                </label>            
                 
                 <input type="submit" value="Create an account">
             </form>
