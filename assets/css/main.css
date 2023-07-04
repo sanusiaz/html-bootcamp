@@ -20,3 +20,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
 }
+
+
+#menu {
+    width: 24px;
+    height: 24px;
+}
+
+#header_logo {
+    width: 90px;
+    height: 20px;
+}
+
+header svg {
+    width: 24px;
+    height: 24px;
+}
