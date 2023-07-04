@@ -1,2 +1,0 @@
-# html-bootcamp
-HTML Bootcamp
